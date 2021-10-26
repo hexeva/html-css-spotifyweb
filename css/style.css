@@ -14,6 +14,7 @@ img{
 
 body{
     font-family: 'Montserrat', sans-serif;;
+    color: darkgray;
 }
 
 .body-wrapper{
@@ -26,7 +27,8 @@ body{
 
 .main-menu{
     width: 100%;
-    height: calc(100% - 100px);
+    height: calc(100% - 90px);
+    overflow: hidden;
     /* Test */
     background-color: chocolate;
 }
@@ -43,11 +45,39 @@ body{
     width: calc(100% - 250px);
     height: 100%;
     float: left;
+    padding-top: 90px;
+
     /* test */
     background-color: indigo;
     
 }
 
+                            /* nav bar */
+
+/* home-search-library-section */
+
+.logo{
+    /* test */
+    background-color: darkgreen;
+}
+
+.action-icons{
+    width: 13%;
+    height: auto;
+    /* test */
+    background-color: darkred;
+}
+
+.action-list li{
+    display: flex;
+}
+/*  END home-search-library-section */
+
+/* Playlist section */
+/* end playlist section */
+
+
+/* end nav bar */
 
 /* END MAIN */
 
@@ -55,8 +85,22 @@ body{
 
 .play-bar{
     width: 100%;
-    height: 100px;
+    height: 90px;
     /* test */
     background-color: bisque;
 }
 /* END FOOTER */
+
+/* FIXED BAR */
+
+.fixed-bar{
+    height: 90px;
+    width: calc(100% - 250px);
+    position: fixed;
+    top: 0;
+    right:0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* END FIXED BAR */
