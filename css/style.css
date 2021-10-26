@@ -57,6 +57,7 @@ body{
 /* home-search-library-section */
 
 .logo{
+    width: 70%;
     /* test */
     background-color: darkgreen;
 }
@@ -85,21 +86,30 @@ body{
     background-color: darkslategray;
 }
 
+.play-content ul{
+    overflow-y: auto;
+    height: 100%;
+}
+
 /* end playlist section */
 
 /* bottom Nav section */
 
+.wrap{
+    display: flex;
+}
+
 .bottom-contents{
-    
+   
     /* test */
     background-color: rgb(104, 96, 31);
 }
 
 .download{
-    display: flex;
     width: 20px;
     height: auto;
 }
+
 
 .user.nav-icons{
     display: flex;
