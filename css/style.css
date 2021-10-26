@@ -29,16 +29,16 @@ body{
     width: 100%;
     height: calc(100% - 90px);
     overflow: hidden;
-    /* Test */
-    background-color: chocolate;
+   
 }
 
 .nav-menu{
     width: 250px;
     height: 100%;
     float: left;
-    /* test */
-    background-color: indianred;
+    display: flex;
+    flex-direction: column;
+  
 }
 
 .main-contents{
@@ -80,6 +80,8 @@ body{
 /* Playlist section */
 
 .playlist{
+    flex-grow: 1;
+    /* test */
     background-color: darkslategray;
 }
 
@@ -88,13 +90,19 @@ body{
 /* bottom Nav section */
 
 .bottom-contents{
+    
     /* test */
-    background-color: khaki;
+    background-color: rgb(104, 96, 31);
 }
 
 .download{
+    display: flex;
     width: 20px;
     height: auto;
+}
+
+.user.nav-icons{
+    display: flex;
 }
 
 /* end bottom nav section */
