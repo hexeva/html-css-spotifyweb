@@ -61,11 +61,15 @@ body{
     background-color: darkgreen;
 }
 
-.action-icons{
+.actions{
+    /* test */
+    background-color: hotpink;
+}
+
+.nav-icons{
     width: 13%;
     height: auto;
-    /* test */
-    background-color: darkred;
+   
 }
 
 .action-list li{
@@ -74,10 +78,29 @@ body{
 /*  END home-search-library-section */
 
 /* Playlist section */
+
+.playlist{
+    background-color: darkslategray;
+}
+
 /* end playlist section */
 
+/* bottom Nav section */
 
-/* end nav bar */
+.bottom-contents{
+    /* test */
+    background-color: khaki;
+}
+
+.download{
+    width: 20px;
+    height: auto;
+}
+
+/* end bottom nav section */
+
+
+                                /* end nav bar */
 
 /* END MAIN */
 
