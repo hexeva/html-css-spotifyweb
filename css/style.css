@@ -16,6 +16,7 @@ body{
     font-family: 'Montserrat', sans-serif;;
     color: darkgray;
     font-size: 13px;
+    background-color: black;
 
 }
 
@@ -71,8 +72,7 @@ ul{
 .logo{
     width: 60%;
     margin-bottom: 20px;
-    /* test */
-    background-color: darkgreen;
+    
 }
                             
 
@@ -122,8 +122,6 @@ ul{
     overflow: hidden;
     padding: 20px;
     
-    /* test */
-    background-color: darkslategray;
 }
 
 
@@ -158,6 +156,7 @@ ul{
 
 .wrap{
     display: flex;
+    align-items: center;
    
 }
 
@@ -166,11 +165,13 @@ ul{
     padding-bottom: 8px;
 }
 
+.wrap.nav-icons-wrap{
+    padding: 10px 0;
+}
+
 .bottom-contents{
     padding:0 20px;
    
-    /* test */
-    background-color: rgb(104, 96, 31);
 }
 
 .download{
@@ -182,15 +183,16 @@ ul{
 
 .user-icons{
     display: flex;
-    width: 30px;
-    height: auto;
-    min-width: 20px;
-    padding-right: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: grey;
+    padding: 3px;
+    margin-right: 7px;
+    
 }
 
-.user-icons-background{
 
-}
 
 
 
@@ -198,6 +200,26 @@ ul{
 
 
                                 /* end nav bar */
+
+
+                                /* MAIN CONTENTS */
+.choise-menu{
+    width: 45%;
+    margin: auto;
+    padding-top: 15px;
+    
+}
+
+.selections{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+                                /* END MAIN CONTENTS */
 
 /* END MAIN */
 
@@ -220,6 +242,8 @@ ul{
     top: 0;
     right:0;
     background-color: rgba(0, 0, 0, 0.5);
+    text-align: right;
+    line-height: 90px;
 }
 
 .fixed-button{
@@ -227,8 +251,8 @@ ul{
     line-height: normal;
     background-color: black;
     border: 1px solid white;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 25px;
+    padding: 11px 28px;
 }
 
 .fixed-button a{
