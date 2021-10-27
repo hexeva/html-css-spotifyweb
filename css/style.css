@@ -50,7 +50,7 @@ ul{
     float: left;
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
+    
   
 }
 
@@ -80,18 +80,30 @@ ul{
 
 
 
+
+
 .actions{
     margin-bottom: 20px;
-    /* test */
-    background-color: hotpink;
+    background-color: black;
+   
 }
 
-
-.nav-icons{
-    width: 12%;
+.home-icon{
+    border-left: 2px solid limegreen;
+    padding-left: 18px;
+    width: 22%;
     height: auto;
     min-width: 20px;
     padding-right: 5px;
+    
+}
+
+.nav-icons{
+    width: 22%;
+    height: auto;
+    min-width: 20px;
+    padding-right: 5px;
+    padding-left: 20px;
    
 }
 
@@ -99,6 +111,7 @@ ul{
     display: flex;
     align-items: center;
     padding-bottom: 15px;
+    
 }
 /*  END home-search-library-section */
 
@@ -107,6 +120,7 @@ ul{
 .playlist{
     flex-grow: 1;
     overflow: hidden;
+    padding: 20px;
     
     /* test */
     background-color: darkslategray;
@@ -147,17 +161,13 @@ ul{
    
 }
 
-.wrap.download-wrap::after{
-    display: block;
-    content: "";
-    height: 1px;
-    background-color:lightgray;
-    width: calc(100% - 40px);
-    margin: auto;
-
+.wrap.download-wrap{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 8px;
 }
 
 .bottom-contents{
+    padding:0 20px;
    
     /* test */
     background-color: rgb(104, 96, 31);
@@ -166,16 +176,23 @@ ul{
 .download{
     width: 20px;
     height: auto;
+    padding-right: 5px;
 }
 
 
-.user.nav-icons{
+.user-icons{
     display: flex;
+    width: 30px;
+    height: auto;
+    min-width: 20px;
+    padding-right: 5px;
 }
 
-.underline{
-    
+.user-icons-background{
+
 }
+
+
 
 /* end bottom nav section */
 
@@ -203,6 +220,22 @@ ul{
     top: 0;
     right:0;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fixed-button{
+    display: inline-block;
+    line-height: normal;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.fixed-button a{
+
+    text-decoration: none;
+    color: white;
+
 }
 
 
