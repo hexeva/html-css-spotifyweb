@@ -15,6 +15,18 @@ img{
 body{
     font-family: 'Montserrat', sans-serif;;
     color: darkgray;
+    font-size: 13px;
+
+}
+
+h2,
+h3,
+h4{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
 }
 
 .body-wrapper{
@@ -38,6 +50,7 @@ body{
     float: left;
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
   
 }
 
@@ -52,29 +65,40 @@ body{
     
 }
 
-                            /* nav bar */
+                            /* nav bar  section*/
 
-/* home-search-library-section */
 
 .logo{
-    width: 70%;
+    width: 60%;
+    margin-bottom: 20px;
     /* test */
     background-color: darkgreen;
 }
+                            
+
+/* home-search-library-section */
+
+
 
 .actions{
+    margin-bottom: 20px;
     /* test */
     background-color: hotpink;
 }
 
+
 .nav-icons{
-    width: 13%;
+    width: 12%;
     height: auto;
+    min-width: 20px;
+    padding-right: 5px;
    
 }
 
 .action-list li{
     display: flex;
+    align-items: center;
+    padding-bottom: 15px;
 }
 /*  END home-search-library-section */
 
@@ -82,13 +106,23 @@ body{
 
 .playlist{
     flex-grow: 1;
+    
     /* test */
     background-color: darkslategray;
+}
+
+.play-content{
+    overflow: hidden;
 }
 
 .play-content ul{
     overflow-y: auto;
     height: 100%;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
 }
 
 /* end playlist section */
