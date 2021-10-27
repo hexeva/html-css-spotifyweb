@@ -51,9 +51,37 @@ ul{
     float: left;
     display: flex;
     flex-direction: column;
-    
-  
 }
+                  /* MEDIA SCREEN XS */
+@media screen and (max-width:599px){
+
+    .nav-menu{
+        width: 70px;
+    }
+
+
+.hidden-logo{
+    display:block;
+}
+
+.displayed-logo{
+    display: none;
+}
+
+
+
+    .icon-text{
+        display: none;
+    }
+
+    .playlist{
+        visibility: hidden;
+    }
+
+
+    
+}
+/* MEDIA SCREEN XS end */
 
 .main-contents{
     width: calc(100% - 250px);
@@ -72,9 +100,20 @@ ul{
 .logo{
     width: 60%;
     margin-bottom: 20px;
-    
+    padding-left: 20px;
 }
-                            
+
+.displayed-logo{
+    width: 100%;
+}
+
+.hidden-logo{
+    width: 100%;
+    display: none;
+}
+        
+
+
 
 /* home-search-library-section */
 
@@ -193,9 +232,6 @@ ul{
 }
 
 
-
-
-
 /* end bottom nav section */
 
 
@@ -204,7 +240,7 @@ ul{
 
                                 /* MAIN CONTENTS */
 .choise-menu{
-    width: 45%;
+    width: 40%;
     margin: auto;
     padding-top: 15px;
     
@@ -213,8 +249,31 @@ ul{
 .selections{
     list-style-type:none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.selections li{
+    display: inline-block;
+}
+
+.underlined{
+    margin: bottom 10px;
+    
+}
+
+
+.underlined::after{
+    display: block;
+    content: "";
+    height: 2px;
+    background-color: limegreen;
+    width: 50%;
+    margin:auto;
+    
+}
+
+
 
 
 
