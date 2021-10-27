@@ -7,8 +7,9 @@
 }
 
 /* COMMON */
-img{
-    /* width: 100%; */
+.img-fit{
+    width: 100%; 
+    height: auto;
     
 }
 
@@ -70,9 +71,30 @@ ul{
 
 .recently-played{
     width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    justify-content: space-between;
+    
+    
     /* test */
-    background-color:lightpink;
+    background-color: brown;  
 }
+
+.cover-contents{
+    width: calc(100% / 6);
+    margin: 5px;
+   
+    
+}
+
+.album-titles{
+    width:100%;
+    /* test */
+    background-color: burlywood;
+}
+
+
 
                             /* End main contents */
 
