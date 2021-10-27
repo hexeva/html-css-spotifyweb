@@ -106,23 +106,36 @@ ul{
 
 .playlist{
     flex-grow: 1;
+    overflow: hidden;
     
     /* test */
     background-color: darkslategray;
 }
 
-.play-content{
-    overflow: hidden;
+
+
+.playlist ul{
+    overflow-y: auto;
+    height: 80%;
 }
 
-.play-content ul{
-    overflow-y: auto;
-    height: 100%;
+.playlist ul li{
+    padding-bottom: 15px;
 }
 
 .add-icon{
     display: flex;
     align-items: center;
+    margin: 10px 0;
+    
+}
+.plus-icon{
+    width: 40px;
+    height:40px;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 5px;
 }
 
 /* end playlist section */
@@ -131,6 +144,17 @@ ul{
 
 .wrap{
     display: flex;
+   
+}
+
+.wrap.download-wrap::after{
+    display: block;
+    content: "";
+    height: 1px;
+    background-color:lightgray;
+    width: calc(100% - 40px);
+    margin: auto;
+
 }
 
 .bottom-contents{
@@ -147,6 +171,10 @@ ul{
 
 .user.nav-icons{
     display: flex;
+}
+
+.underline{
+    
 }
 
 /* end bottom nav section */
