@@ -550,6 +550,10 @@ a:hover{
 
 @media screen and (max-width:1099px) {
 
+    h3{
+        font-size: 12px;
+    }
+
     .cover-contents{
         width: calc(100% / 4);
     }
@@ -640,7 +644,9 @@ a:hover{
     display: none;
 }
                 
-                
+     .selections{
+         justify-content: space-evenly;
+     }           
                 
 .icon-text{
     display: none;
