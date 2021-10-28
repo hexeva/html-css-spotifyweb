@@ -378,7 +378,7 @@ a:hover{
    
     background-color: #302f2f;
 }
-
+/* left bar */
 .left-bar{
     display: flex;
     
@@ -400,6 +400,14 @@ a:hover{
     padding:0 20px;
 
 }
+
+.left-icon-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* end left bar */
+
 
 .footer-player{
     display: flex;
@@ -445,6 +453,10 @@ a:hover{
     max-width:80px;
 }
 
+
+.counters{
+    margin: 0 3px;
+}
 
 
 
@@ -559,6 +571,10 @@ a:hover{
         width: calc(100% / 2);
     }
 
+    .left-icon-group{
+        flex-direction: column;
+    }
+
     
        
 }
@@ -566,7 +582,7 @@ a:hover{
             /* END MEDIA SCREEN MD */
 
             /* MEDIA SCREEN S */
-            
+
 @media screen and (max-width:599px) {
     .cover-contents{
         width: calc(100% / 2);
@@ -582,13 +598,22 @@ a:hover{
         /* MEDIA SCREEN XS */
 @media screen and (max-width:599px){
 
+    .fixed-bar{
+        width: calc(100% - 50px);
+    }
+
 .nav-menu{
     width: 50px;
+}
+
+.main-contents{
+    width: calc(100% - 50px);
 }
 
 .logo{
     width: 35px;
 }
+
                 
                 
 .hidden-logo{
@@ -636,6 +661,18 @@ a:hover{
 
 .bottom-contents{
     padding: 14px;
+}
+
+.footer-player{
+    padding: 14px 40px;
+}
+
+.wrap-player{
+    width: 45%;
+}
+
+.right-bar{
+    width: 20%;
 }
 
                 
